@@ -1,0 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+
+* {box-sizing: -moz-border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+html {background: url(bg.png);}
+body {margin: 0; padding: 0; font-family: 'Raleway', sans-serif; font-weight: 400;}
+.in {width: 854px; margin: 0 auto;}
+.header {height: 100px;}
+.header h1 {color: #e7512d; margin: 0; font-size: 3em; line-height: 100px; font-weight: 900; text-transform: uppercase;}
+.header h1 span {color: #72441e; font-weight: 300;}
+.main .video {background-color: rgb(254, 253, 253); padding-top: 30px;}
+.main .info {padding: 20px 0;}
+.main .info h2 {margin: 0; color: #e7512d; font-weight: 500; font-size: 2em;}
+.main .info p {font-size: 1em;}
+.main ul {list-style: none; margin: 0; padding: 30px; background-color: rgb(226, 220, 220); overflow: hidden;}
+.main ul li {float: left; width: 186px; margin-right: 16px; padding: 2px; background: rgb(203, 197, 197); border-radius: 2px;}
+.main ul li a {text-decoration: none; outline: none;}
+.main ul li + li + li + li + li {margin-top: 16px;}
+.main ul li:nth-child(4n+4) {margin-right: 0;}
+.main ul li h3 {margin: 5px 0 0 0; color: rgb(70, 50, 50); font-size: 1em; padding: 0 8px;}
+.main ul li p {font-size: 0.9em; color: rgb(70, 50, 50); padding: 0 8px;}
+.main ul li img {width: 100%; height: auto;}
+.footer {height: 70px; line-height: 70px; background-color: rgb(254, 253, 253);}
+.footer p {margin: 0; color: rgb(203, 197, 197);}
