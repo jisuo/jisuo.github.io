@@ -3,83 +3,109 @@
 <head>
 	<meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>#slacker.se video portal</title>
+    <title>Nöjesmaskinen</title>
     <link href="style.css" rel="stylesheet"/>
+    <link href="video-js-rickard.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+  		*/
+  		.vjs-default-skin .vjs-play-progress,
+  		.vjs-default-skin .vjs-volume-level { background-color: #e7512d }
+		*/
+	</style>
+    <script src="video.js"></script>
 </head>
 <body>
+	<script type='text/javascript' src='multiswap.js'></script>
 	<div class="header">
 		<div class="in">
-			<h1>#slacker.se <span>video portal</span></h1>
+			<h1><a href="/index.php">nöjes<span>maskinen</span></a></h1>
 		</div>
 	</div>
 	<div class="main">
-		
-		<div class="video">
+		<div class="intro">
 			<div class="in">
-				<video id="example_video_1" class="video-js vjs-default-skin" controls="" preload="auto" width="854" height="480">
-					 <source src="http://video.avellan.se/004.mp4" type="video/mp4">
-				</video>
-				<div class="info">
-					<h2>STHQ verandafest</h2>
-					<p><span>Datum:</span> Sommar 2009</p>
+				<form method="get" action="/index.php"> 
+					<input name="search" type="search" results="10" placeholder="Sök efter videos!" autosave="nojesmaskinen">
+					<input type="submit" value="Sök">
+				</form>
+
+				<div class="stats">
+					<div class="col col-1">
+						<p><strong>Människor</strong></p>
+						<div class="tags">
+							<a href="?person=jisuo">jisuo</a>
+							<a href="?person=peeman">peeman</a>
+						</div>
+
+						<p class="second"><strong>Kategorier</strong></p>
+						<div class="tags">
+							<a href="?tag=Blandat">Blandat</a> 
+							<a href="?tag=daskirche">daskirche</a> 
+							<a href="?tag=audio">audio</a> 
+							<a href="?tag=Nyår">Nyår</a> 
+							<a href="?tag=Thanksgiving">Thanksgiving</a> 
+							<a href="?tag=NV3D">NV3D</a>
+						</div>
+					</div>
+					<div class="col col-2">
+						<p><strong>Statistik</strong></p>
+						<p>Antal klipp: 116</p>
+						<p>Antal visningar: 124</p>
+						<p>Total längd: 05:30:43</p>
+					</div>
 				</div>
 			</div>
 		</div>
+
 		<div class="in">
-			<ul>
-				<li>
-					<a href="#">
+
+					<h2><a href="/index.php?tag=Blandat">Blandat (43)</a></h2>
+
+					<ul>
+									<li>
+						<a title="MVI 2202" href="?v=MVI_2202">
+						<div class="image">
 						<img src="test.jpg">
-						<h3>Klipp namn</h3>
-						<p><span>Datum:</span> Sommar 2009</p>
-					</a>
-				</li>
-				<li>
-					<a href="#">
+						<div class="duration">00:36</div>
+						</div>
+						<h3>MVI 2202</h3>
+						<p><span>2 dagar sedan</span></p>
+						</a>
+																		</li>
+									<li>
+						<a title="coke@DipF [2003-05-14] [PeeMaN]" href="?v=coke@DipF.2003-05-14.PeeMaN">
+						<div class="image">
 						<img src="test.jpg">
-						<h3>Klipp namn</h3>
-						<p><span>Datum:</span> Sommar 2009</p>
-					</a>
-				</li>
-				<li>
-					<a href="#">
+						<div class="duration">00:36</div>
+						</div>
+						<h3>coke@DipF [2003-05-14] [PeeMaN]</h3>
+						<p><span>2 dagar sedan</span></p>
+						</a>
+																		</li>
+									<li>
+						<a title="timelapse 100227" href="?v=timelapse_100227">
+						<div class="image">
 						<img src="test.jpg">
-						<h3>Klipp namn</h3>
-						<p><span>Datum:</span> Sommar 2009</p>
-					</a>
-				</li>
-				<li>
-					<a href="#">
+						<div class="duration">00:36</div>
+						</div>
+						<h3>timelapse 100227</h3>
+						<p><span>2 dagar sedan</span></p>
+						</a>
+																		</li>
+									<li>
+						<a title="timelapse 100225" href="?v=timelapse_100225">
+						<div class="image">
 						<img src="test.jpg">
-						<h3>Klipp namn</h3>
-						<p><span>Datum:</span> Sommar 2009</p>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<img src="test.jpg">
-						<h3>Klipp namn</h3>
-						<p><span>Datum:</span> Sommar 2009</p>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<img src="test.jpg">
-						<h3>Klipp namn</h3>
-						<p><span>Datum:</span> Sommar 2009</p>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<img src="test.jpg">
-						<h3>Klipp namn</h3>
-						<p><span>Datum:</span> Sommar 2009</p>
-					</a>
-				</li>
-			</ul>
+						<div class="duration">00:36</div>
+						</div>
+						<h3>timelapse 100225</h3>
+						<p><span>2 dagar sedan</span></p>
+						</a>
+																	</li>
+			</ul><a class="more" href="?tag=Blandat">But wait, there's more</a>					
 		</div>
 	</div>
 
-	<div class="footer"><div class="in"><p>Slacker Technologies 2014</p></div></div>
+	<div class="footer"><div class="in"><p>Avellan Ventures i samarbete med Björns Baggy Jeans AB, Jims havsnära webverkstad och Kristinas fjällateljé</p></div></div>
 </body>
 </html>
