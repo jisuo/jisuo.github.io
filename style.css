@@ -34,8 +34,8 @@ a {text-decoration: none;}
 .main .intro input[type='search'] {font-family: 'Raleway', sans-serif; float: left; width: calc(100% - 80px); border: 3px solid rgb(203, 197, 197); border-right: 0; font-size: 1.5em; height: 48px; line-height: 48px; outline: none; border-radius: 3px 0 0 3px; -webkit-appearance: none; appearance: none;}
 .main .intro input[type='submit'] {font-family: 'Raleway', sans-serif; float: left; width: 80px; border: 0; height: 48px; background-color: #e7512d; font-size: 1.5em; color: #fff; border-radius: 0 3px 3px 0; cursor: pointer; -webkit-appearance: none; appearance: none;}
 .main .intro input[type='submit']:hover {background-color: #CC3A16;}
-.main .in > h2,
-.main .in > h2 a {color: #72441e;}
+.main .in h2,
+.main .in h2 a {color: #72441e;}
 .main .search:after {clear: both; content: "."; display: block; height: 0; visibility: hidden;}
 .main .stats:after {clear: both; content: "."; display: block; height: 0; visibility: hidden;}
 .main .stats .col {width: 50%; float: left;}
